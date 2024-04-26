@@ -7,11 +7,15 @@
           <Navbar />
           <BarLogos />
           <BarMenu />
+          <br>
         </div>
       </header>
       <main>
         <div class="z2">
-          <br><br><br><br><br>
+          <br><br><br><br><br> <br>
+          <div class="x2">
+            <Calendar />
+          </div>
           <PubBlog />
         </div>
       </main>
@@ -27,6 +31,7 @@
   import BarLogos from '../BarLogos.vue';
   import BarMenu from '../BarMenu.vue';
   import PubBlog from '../Activities/PubBlog.vue';
+import Calendar from '../Activities/Calendar.vue';
   
   export default {
     name: "App",
@@ -35,7 +40,8 @@
       BarLogos,
       BarMenu,
       Footer,
-      PubBlog
+      PubBlog,
+      Calendar
     },
   };
   </script>
@@ -58,6 +64,10 @@
       margin-top: 50px;
       z-index: 10;
     } 
+
+    .z2, .x2{
+      background: #eee;
+    }
   </style>
   
   
