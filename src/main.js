@@ -5,6 +5,7 @@ import Home from './components/Page/Home.vue'
 import Activities from './components/Page/Activities.vue'
 import Events from './components/Page/Events.vue'
 import Members from './components/Page/Members.vue'
+import Preview1 from './components/Preview/popupLog.vue'
 import './index.css'
 
 const router = createRouter({
@@ -14,6 +15,7 @@ const router = createRouter({
     { path: '/activities', component: Activities },
     { path: '/events', component: Events },
     { path: '/members', component: Members },
+    { path: '/Preview1', component: Preview1},
   ]
 })
 
